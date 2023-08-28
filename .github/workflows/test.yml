@@ -19,10 +19,10 @@ jobs:
         node-version: '18.15.0'
 
     - name: Install dependencies
-      run: npm i
+      run: npm ci
 
     - name: Build and run development server
       run: npm start&
 
     - name: Run tests
-      run: npm run sample-test&
+      run: npm run sample-test
