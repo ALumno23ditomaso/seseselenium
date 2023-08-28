@@ -1,0 +1,33 @@
+2023-08-28 16:04:19 - [31merror[39m: Config file does not exist at any parent directory of 
+2023-08-28 16:04:19 - [31merror[39m: Error: Config file does not exist at any parent directory of: /home/realesalvatori/Descargas/Bv/Selenium-tp-main
+    at new BrowserStackSetup (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:5946)
+    at run (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/mocha/command.js:2:29902)
+    at Object.RYvFg (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1025)
+    at captureError (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/runner.js:2:2384)
+    at Object.uOekO (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/runner.js:2:7163)
+    at _0x1b96e8.<computed> [as handler] (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8207)
+    at /home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/mocha/node_modules/yargs/build/index.cjs:443:71
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-08-28 16:05:26 - [32minfo[39m: Reading configs from /home/realesalvatori/Descargas/Bv/Selenium-tp-main/browserstack.yml
+2023-08-28 16:05:26 - [31merror[39m: Error: selenium-webdriver/package.json doesn't exist.
+    at exports.<computed> [as requireModule] (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/helpers/helper.js:1:124199)
+    at exports.<computed> [as getPackageVersion] (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/helpers/helper.js:1:127572)
+    at new BrowserStackSetup (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:7044)
+    at run (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/mocha/command.js:2:29902)
+    at Object.RYvFg (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1025)
+    at captureError (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/runner.js:2:2384)
+    at Object.uOekO (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/runner.js:2:7163)
+    at _0x1b96e8.<computed> [as handler] (/home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8207)
+    at /home/realesalvatori/Descargas/Bv/Selenium-tp-main/node_modules/mocha/node_modules/yargs/build/index.cjs:443:71
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-08-28 16:06:19 - [32minfo[39m: Reading configs from /home/realesalvatori/Descargas/Bv/Selenium-tp-main/browserstack.yml
+2023-08-28 16:06:25 - [32minfo[39m: Local binary started successfully
+2023-08-28 16:06:27 - [32minfo[39m: Running your mocha tests across 3 platforms
+2023-08-28 16:06:27 - [32minfo[39m: Now, showing logs from mocha
+2023-08-28 16:06:28 - [32minfo[39m: Configuring to run tests on BrowserStack
+2023-08-28 16:06:28 - [32minfo[39m: Configuring to run tests on BrowserStack
+2023-08-28 16:06:28 - [32minfo[39m: Configuring to run tests on BrowserStack
+2023-08-28 16:07:57 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/62b889cf0df2143ade460d55a2e761fe865f5a86
+2023-08-28 16:07:57 - [32minfo[39m: Visit https://observability.browserstack.com/builds/av2eqe0wquyjgt7gi1tuz2xgvoe1kf8fbf1lnouk to view build report, insights, and many more debugging information all at one place!
+
+2023-08-28 16:08:00 - [32minfo[39m: Local binary stopped

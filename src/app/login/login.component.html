@@ -1,0 +1,9 @@
+<h1>Login</h1>
+<label>email</label>
+<input [(ngModel)] = "email" type="email" placeholder="email" id="email">
+<br>
+<label>contraseña</label>
+<input [(ngModel)]= "password" type="password" placeholder="contraseña" id="password">
+
+<button (click)="verifyFake()" routerLink="/login-component">enviar</button>
+<button routerLink="/register-component">no tenes cuenta?</button>
